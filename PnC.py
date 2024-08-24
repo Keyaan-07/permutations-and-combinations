@@ -18,4 +18,9 @@ while 1:
 
     if x == 'p' or x == 'P':
         n = int(input("enter value of n:"))
+        r = int(input("enter value of r:"))
+        permutations(n, r)
+    if x == 'c' or x == 'C':
+        n = int(input("enter value of n:"))
+        r = int(input("enter value of r:"))
         
