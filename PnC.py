@@ -23,4 +23,8 @@ while 1:
     if x == 'c' or x == 'C':
         n = int(input("enter value of n:"))
         r = int(input("enter value of r:"))
-        
+        combinations(n, r)
+    if x == 'e' or x == 'E':  
+        exit()
+    else:
+        print("enter a valid value")
